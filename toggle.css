@@ -1,0 +1,71 @@
+/* .toggle-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Hide content2 by default */
+
+
+.content2 {
+    display: none;
+}
+
+/* When checkbox is checked, show content2 and hide content1 */
+#toggle:checked ~ .content1 {
+    display: none;
+}
+#toggle:checked ~ .content2 {
+    display: block;
+} */
+
+
+
+.container1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Navigation buttons */
+.nav label {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 5px;
+    display: inline-block;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+/* Content Sections */
+.content-box {
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 20px;
+    min-height: 100px;
+}
+
+/* Hide all contents by default */
+.content {
+    display: none;
+}
+
+/* Show content when the corresponding radio is checked */
+#content1:checked ~ .content-box .content-1 {
+    display: block;
+}
+#content2:checked ~ .content-box .content-2 {
+    display: block;
+}
+#content3:checked ~ .content-box .content-3 {
+    display: block;
+}

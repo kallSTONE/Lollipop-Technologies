@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;   
+    /* border: 1px solid red;  */
+}
+
+
+.hero{
+    width: 100%;
+}
+
+.header{
+    width:100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    background-color:rgb(246, 246, 246);
+    border-bottom: 0.61px solid #000;
+    position: sticky;   
+    z-index: 2;
+}
+.header .logo{
+    width: 65px;
+    align-self: center;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;    
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 2px 1px;
+}
+
+.header ul li a:hover{
+    text-decoration: none;
+    color: rgba(5, 146, 5, 0.829);
+    transition: 0.15s;
+    cursor: pointer;
+ }
+ .header ul li a:focus{
+    background-color: rgba(5, 146, 5, 0.829);
+    color: #fff;
+    padding: 3.5px;
+ }
+
+.logo:hover{
+    scale:1.05;
+    border-radius: 10px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.contentt{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(15, 12, 2);
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+    margin-bottom:50px;
+    padding-top: 100px;
+}
+.contentt img{
+    margin-top: 30px;
+}
+.contentt p{
+    color: rgb(219, 200, 182,0.65);
+    font-size: 10pt;
+    margin-bottom: px;
+}
+.contentt h2{
+    font-size: 40px;
+    font-weight: 300;    
+    margin-top:20px;
+    -webkit-text-stroke: 0.8px rgb(255, 255, 255);
+    color:transparent;
+    margin-bottom: 60px;
+}
+
+.contentt a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 60px;
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: rgba(0, 104, 0, 0.788);
+    opacity: 0.8;
+}
+
+.contentt a:hover{
+    background-color:rgba(3, 151, 3, 0.788);
+    color:rgb(253, 253, 253);
+    border: 1px solid rgb(187, 182, 209);
+    transition: 0.25s;
+    cursor: pointer;
+}
+.contentt h2:hover{
+    color: rgb(255, 255, 255);
+    transition:ease-out 0.15s;
+
+}
+
+.secondSection {
+    text-align: center; /* Centers h1 and .pp paragraph */
+    margin-top: 40px;
+    padding: 20px 50px;
+}
+
+.secondSection h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.secondSection .pp {
+    display: block; /* Ensures block-level alignment */
+    margin: 0 auto; /* Centers horizontally */
+    margin-bottom: 50px;
+    color:rgba(0,0,0,0.64);
+}
+
+.secondSection .content-wrapper ul li{
+    text-align: left;
+    margin-right: 50px;
+    font-size: 20;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Places image on the right and .op paragraph on the left */
+    align-items: center; /* Aligns items vertically */
+    margin-top: 20px;
+}
+
+.op {
+    flex: 1; /* Allows paragraph to take available space */
+    text-align: left;
+    margin-left: 20px;
+    em{
+        font-style: none;
+        font-weight: bold;
+        font-size: 22pt;
+    }
+}
+.up{
+    display:block;
+}
+.secondsection ul li{
+    font-size: 60pt;
+    margin-right: 100px;
+}
+
+.secondSection img {
+    display:block;
+    flex: 1; /* Allows image to take available space */
+    max-width: 50%; /* Adjust image width as needed */
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.container{
+    height: 2000px;
+    margin-top:  60px ;
+    margin-right:40px;
+    margin-left: 40px;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.container a{
+    margin-top: 19px;
+    margin-left: 10px;  
+    border-radius: 50px;
+    /* border: 2px solid rgb(35, 35, 36); */
+    padding: 6px 80px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container a:hover{
+    background-color: rgba(0, 128, 0, 0.788);
+    color: white;
+    margin-top: 25px;
+    margin-left: 10px;  
+    border-radius: 50px;
+    padding: 10px 90px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Navigation buttons */
+.nav label {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+.nav label:hover{
+    background-color:rgba(3, 151, 3, 0.788);
+    color:rgb(253, 253, 253);
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav label:focus{
+    background-color:rgba(3, 151, 3, 0.788);
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(187, 182, 209);
+}
+/* When checkbox is checked, show content2 and hide content1 */
+#toggle:checked ~ .content1 {
+    display: none;
+}
+#toggle:checked ~ .content2 {
+    display: block;
+} 
+
+.container1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Hide all contents by default */
+.content {
+    display: none;
+}
+
+/* Show content when the corresponding radio is checked */
+#content1:checked ~ .content-box .content-1 {
+    display: block;
+}
+#content2:checked ~ .content-box .content-2 {
+    display: block;
+}
+#content3:checked ~ .content-box .content-3 {
+    display: block;
+}
+#content4:checked ~ .content-box .content-4 {
+    display: block;
+}
+
+
+
+
+
+
+/* Content Sections */
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px; 
+    padding: 10px;
+    min-height: 600px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(55, 55, 55, 0.231);
+}
+
+
+.ing{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    width:100%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.ing img{
+    width:300px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.ing img:hover{
+    z-index:1;
+    width: 350px;
+    margin: -20px -28px ;
+    transition: 1.5s;
+}
+
+
+.content2 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(223, 221, 216, 0.651);
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 10pt;
+}
+.contact img{
+    max-width: 120px;
+    max-height: 100px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.contact h1{
+    color: black;
+    font-family: 'Times', "Times New Roman"; 
+    font-size: 30pt;
+    margin-top: 0;
+    padding: 0;
+    animation: ColorChange 4s infinte;
+}
+
+.contact h2{
+    color: rgb(2, 95, 2);
+    font-family: 'Times', "Times New Roman"; 
+    font-size: 16pt;
+    margin-top: 10px;
+    padding: 0;
+}
+.contact p{
+    font-size: 10pt;
+}
+.contact a{
+    text-decoration: none;
+    color: blue;
+}
+.contact .upbutton{    
+    align-self: right;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: right;
+    background-color: rgb(15, 12, 2);
+    color: green;
+    font-weight: 400;
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-left: 97%;
+}   
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(15, 12, 2);
+    color: white;
+}
+footer a{
+    color: aliceblue;
+    }
+
+
+
+    @keyframes fadeInAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+
+    @keyframes ColorChange {
+    from{
+        background-color: aqua;
+
+    }    ;        
+
+    to{
+        background-color: #000;
+    };
+    }
